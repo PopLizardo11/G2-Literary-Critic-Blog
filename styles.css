@@ -1,0 +1,28 @@
+a {
+    color: black
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav {
+    height: auto;
+    width: auto; 
+    display: flex;
+    justify-content:space-between;
+    position: sticky;
+    padding: 15px 20px 20px 20px;
+    overflow: hidden;
+    align-items: stretch;
+    position: relative;
+    background-color: white;
+    overflow-x: hidden;
+}
+
+svg {
+    height: 5vh;
+}
+
