@@ -5,7 +5,7 @@ a {
 body {
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .nav-bar {
@@ -33,7 +33,7 @@ svg {
 }
 
 #feature-cover {
-    height: 30vh;
+    height: 35vh;
 }
 
 #feature-text {
@@ -51,4 +51,20 @@ svg {
     text-align: justify;
     margin: 10px;
     overflow: hidden;
+}
+
+#category-section {
+    display: flex;
+    width: 100%;
+    overflow: auto;
+    gap: 30px;
+}
+
+.category-card {
+    display: flex;
+    flex-direction: column;
+}
+
+#category-img {
+    height: 40vh;
 }
