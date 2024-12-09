@@ -50,4 +50,5 @@ svg {
 #feature-para {
     text-align: justify;
     margin: 10px;
+    overflow: hidden;
 }
