@@ -70,3 +70,8 @@ svg {
 #category-img {
     height: 40vh;
 }
+
+.home-footer {
+    height: 250px;
+    background-color: aqua;
+}
