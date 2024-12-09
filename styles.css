@@ -8,7 +8,7 @@ body {
     overflow: hidden;
 }
 
-nav {
+.nav-bar {
     height: auto;
     width: auto; 
     display: flex;
@@ -26,3 +26,11 @@ svg {
     height: 5vh;
 }
 
+#feature-section {
+    display: flex;
+    align-items: center;
+}
+
+#feature-cover {
+    height: 30vh;
+}
