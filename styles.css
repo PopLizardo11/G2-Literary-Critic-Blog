@@ -29,8 +29,25 @@ svg {
 #feature-section {
     display: flex;
     align-items: center;
+    margin: 20px 10px 20px 10px;
 }
 
 #feature-cover {
     height: 30vh;
+}
+
+#feature-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 30vh;
+}
+
+#feature-heading {
+    margin: 10px;
+}
+
+#feature-para {
+    text-align: justify;
+    margin: 10px;
 }
